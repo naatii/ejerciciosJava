@@ -1,0 +1,141 @@
+#+TITLE:
+#+AUTHOR:
+#+EMAIL:
+#+DATE:
+#+OPTIONS: texht:t toc:nil num:nil -:nil ^:{} ":nil ':nil
+#+OPTIONS: tex:t
+#+LATEX_CLASS: article
+#+LATEX_HEADER:
+#+LANGUAGE: es
+
+#+BEGIN_COMMENT
+#+LATEX_HEADER: \usepackage[AUTO]{babel}
+#+END_COMMENT
+
+#+LATEX_HEADER_EXTRA: \usepackage{mdframed}
+#+LATEX_HEADER_EXTRA: \BeforeBeginEnvironment{minted}{\begin{mdframed}}
+#+LATEX_HEADER_EXTRA: \AfterEndEnvironment{minted}{\end{mdframed}}
+
+#+LATEX: \setlength\parindent{10pt}
+#+LATEX_HEADER: \usepackage{parskip}
+
+#+latex_header: \usepackage[utf8]{inputenc} %% For unicode chars
+#+LATEX_HEADER: \usepackage{placeins}
+
+#+LATEX_HEADER: \usepackage[margin=2.50cm]{geometry}
+
+#+LaTeX_HEADER: \usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \usepackage{mathpazo}
+#+LaTeX_HEADER: \linespread{1.05}
+#+LaTeX_HEADER: \usepackage[scaled]{helvet}
+#+LaTeX_HEADER: \usepackage{courier}
+
+#+LaTeX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue}
+#+LATEX_HEADER: \RequirePackage{fancyvrb}
+#+LATEX_HEADER: \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\small,formatcom = {\color[rgb]{0.5,0,0}}}
+
+
+* Ejercicios de Bucles
+
+
+** Ejercicio 1
+Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle for.
+
+** Ejercicio 2
+Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle while.
+
+** Ejercicio 3
+Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle do-while .
+
+** Ejercicio 4
+Muestra los números del 320 al 160, contando de 20 en 20 hacia atrás
+utilizando un bucle for .
+
+** Ejercicio 5
+Muestra los números del 320 al 160, contando de 20 en 20 hacia atrás
+utilizando un bucle while .
+
+** Ejercicio 6
+Muestra los números del 320 al 160, contando de 20 en 20 utilizando un bucle
+do-while .
+
+** Ejercicio 7
+Realiza el control de acceso a una caja fuerte. La combinación será un
+número de 4 cifras. El programa nos pedirá la combinación para abrirla. Si no
+acertamos, se nos mostrará el mensaje “Lo siento, esa no es la combinación”
+y si acertamos se nos dirá “La caja fuerte se ha abierto satisfactoriamente”.
+Tendremos cuatro oportunidades para abrir la caja fuerte.
+
+** Ejercicio 8
+Muestra la tabla de multiplicar de un número introducido por teclado.45
+Bucles
+
+** Ejercicio 9
+Realiza un programa que nos diga cuántos dígitos tiene un número introducido
+por teclado.
+
+** Ejercicio 10
+Escribe un programa que calcule la media de un conjunto de números positivos
+introducidos por teclado. A priori, el programa no sabe cuántos números se
+introducirán. El usuario indicará que ha terminado de introducir los datos
+cuando meta un número negativo.
+
+** Ejercicio 11
+Escribe un programa que muestre en tres columnas, el cuadrado y el cubo de
+los 5 primeros números enteros a partir de uno que se introduce por teclado.
+
+** Ejercicio 12
+Escribe un programa que muestre los n primeros términos de la serie de
+Fibonacci. El primer término de la serie de Fibonacci es 0, el segundo es 1
+y el resto se calcula sumando los dos anteriores, por lo que tendríamos que
+los términos son 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144... El número n se
+debe introducir por teclado.
+
+** Ejercicio 13
+Escribe un programa que lea una lista de diez números y determine cuántos
+son positivos, y cuántos son negativos.
+
+** Ejercicio 14
+Escribe un programa que pida una base y un exponente (entero positivo) y
+que calcule la potencia.
+
+** Ejercicio 15
+Escribe un programa que dados dos números, uno real (base) y un entero
+positivo (exponente), saque por pantalla todas las potencias con base el
+numero dado y exponentes entre uno y el exponente introducido. No se deben
+utilizar funciones de exponenciación. Por ejemplo, si introducimos el 2 y el 5,
+se deberán mostrar 2 1 , 2 2 , 2 3 , 2 4 y 2 5 .46
+Bucles
+
+** Ejercicio 16
+Escribe un programa que diga si un número introducido por teclado es o no
+primo. Un número primo es aquel que sólo es divisible entre él mismo y la
+unidad.
+
+** Ejercicio 17
+Realiza un programa que sume los 100 números siguientes a un número entero
+y positivo introducido por teclado. Se debe comprobar que el dato introducido
+es correcto (que es un número positivo).
+
+** Ejercicio 18
+Escribe un programa que obtenga los números enteros comprendidos entre
+dos números introducidos por teclado y validados como distintos, el programa
+debe empezar por el menor de los enteros introducidos e ir incrementando de
+7 en 7.
+
+** Ejercicio 19
+Realiza un programa que pinte una pirámide por pantalla. La altura se debe
+pedir por teclado. El carácter con el que se pinta la pirámide también se debe
+pedir por teclado.
+
+** Ejercicio 20
+Igual que el ejercicio anterior pero esta vez se debe pintar una pirámide hueca.
+
+** Ejercicio 21
+Realiza un programa que vaya pidiendo números hasta que se introduzca un
+numero negativo y nos diga cuantos números se han introducido, la media de
+los impares y el mayor de los pares. El número negativo sólo se utiliza para
+indicar el final de la introducción de datos pero no se incluye en el cómputo.
+
+** Ejercicio 22
+Muestra por pantalla todos los números primos entre 2 y 100, ambos incluidos.
